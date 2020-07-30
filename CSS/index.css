@@ -1,0 +1,72 @@
+@charset "utf-8";
+header{
+    color: darkorange;
+    font-family: cursive;
+}
+
+body{
+    background-color: cadetblue;
+    font-size: 24px;
+}
+
+table{
+    background-color: aliceblue;
+    background: linear-gradient(#F0F8FF,#7FFFD4);
+}
+h2{
+    color: aliceblue;
+    
+    font-size: 4em;
+    font-size: 36px;
+    
+    font-family: sans-serif;
+    
+    line-height: 2em;
+    
+    text-align: justify;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.quiz{
+    background-color: #FFFACD;
+    
+}
+#upsprout{
+    color: cadetblue;
+}
+
+div{
+    background-color: ghostwhite;
+    border-radius: 4px;
+    
+}
+
+#ans{
+    float: right;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color: azure;
+    color: snow;
+    background-color: darkkhaki;
+}
+
+.pic1{
+    width: 33%;
+    float: left;
+    margin-left: 0.5%;
+}
+.pic2{
+    width: 33%;
+    float: left
+}
+.pic3{
+    width: 33%;
+}
+
+.box{
+    float: left;
+}
