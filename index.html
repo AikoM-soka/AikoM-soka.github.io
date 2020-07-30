@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta lang="ja" />
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>高校の部活紹介</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="intro">Introduction of High School Club Activity</h1>
+    </header>
+
+    <div>
+        <h2 id="upsprout">ダンス部 -UP SPROUT-</h2>
+
+        <p>・部員数　各学年約20名</p>
+        <p>・活動期間　1年4月～３年4月（２年間）</p>
+        <p>・主な活動　校内ライブ、ダンス大会出場、体育祭の団ダンス係など</p>
+        <img class="pic1" src="img/intro1.jpg" alt="intro1" height="350" />
+        <img class="pic2" src="img/intro2.jpg" alt="intro2" height="350" />
+        <img class="pic3" src="img/intro4.jpg" alt="intro4" height="350" />
+    </div>
+
+    <h2>～行事紹介～</h2>
+    <table border="1">
+
+        <tr>
+            <!--th,tdの数は行ごとに合わせる-->
+            <th></th>
+            <th>4月</th>
+            <th>5月</th>
+            <th>6月</th>
+            <th>7月</th>
+            <th>8月</th>
+            <th>9月</th>
+            <th>10月</th>
+            <th>11月</th>
+            <th>12月</th>
+            <th>1月</th>
+            <th>2月</th>
+            <th>3月</th>
+        </tr>
+        <tr>
+            <th><a href="first.html" target="_blank" onclick="message(1)">1年生</a></th>
+            <td>入部</td>
+            <td></td>
+            <td>デビューライブ</td>
+            <td></td>
+            <td>豊中祭り</td>
+            <td></td>
+            <td>文化祭</td>
+            <td>ヤングフェスティバル</td>
+            <td></td>
+            <td>シャフルライブ</td>
+            <td>ダンスフェスティバル</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th><a href="second.html" target="_blank" onclick="message(2)">2年生</a></th>
+            <td>新人戦、新歓ライブ</td>
+            <td>ふれあい緑地</td>
+            <td></td>
+            <td>合宿、DANCE STADIUM</td>
+            <td></td>
+            <td></td>
+            <td>文化祭</td>
+            <td>ダンスドリル</td>
+            <td>MVD</td>
+            <td></td>
+            <td>ダンスフェスティバル</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <th><a href="third.html" target="_blank" onclick="message(3)">3年生</a></th>
+            <td>引退ライブ</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <p>↑詳細は学年をクリック</p>
+
+    <h2>～ジャンル紹介～</h2>
+    <ul>
+        <li>Hip Hop</li>
+        <ul>
+            <li>アメリカで発祥したストリートダンスの一種。メンバーは8人。</li>
+        </ul>
+        <img src="img/Hiphop.png" alt="Hiphop" width="50%" />
+        <li>Jazz</li>
+        <ul>
+            <li>バレエの要素を取り入れたダンスのジャンル。女性らしいしなやかでキレのあるダンス。メンバーは6人。</li>
+        </ul>
+        <img src="img/Jazz.jpg" alt="Jazz" width="50%" />
+        <li>Lock</li>
+        <ul>
+            <li>1970年代に誕生したストリートダンス。LOCKとは鍵を意味し、激しい動きから突然静止しポーズを取るスタイルが特徴。メンバーは5人。</li>
+        </ul>
+        <img src="img/Lock.jpg" alt="Lock" width="50%" />
+    </ul>
+
+    <div class="quiz">
+        <h3>-------クイズ！------</h3>
+        <p>Q1: ダンスを踊る前の準備運動のことを何というか？ <button id="ans" type="button" onclick="answer(1)">答え</button></p>
+        <p>Q2: Hip Hopの走っているように見えるステップは何というか？ <button id="ans" type="button" onclick="answer(2)">答え</button></p>
+        <p>Q3: LOCKダンスの手をくるくる回す動作を何というか？ <button id="ans" type="button" onclick="answer(3)">答え</button></p>
+        <p>Q4: Jazzダンスの起源はなにか？ <button id="ans" type="button" onclick="answer(4)">答え</button></p>
+    </div>
+
+    <h2>～部活動以外のイベントなど～</h2>
+    <ul>
+        <li>ユニバーサルスタジオジャパン</li>
+        <img src="img/usj.jpg" alt="usj" width="40%" />
+
+        <li>花火（合宿）</li>
+        <img src="img/off_firework.jpg" alt="firework" width="40%" />
+
+        <li>クリスマスパーティー</li>
+        <img src="img/party.jpg" alt="party1" width="40%" />
+        <img src="img/party2.jpg" alt="party2" width="40%" />
+
+
+        <li>体育祭</li>
+        <img src="img/sportsfes.jpg" alt="sportsfes" width="40%" />
+
+        <li>卒業式</li>
+        <img src="img/graduate.jpg" alt="graduate" width="40%" />
+    </ul>
+
+    <a href="#intro">トップに戻る</a>
+    <script src="js/test.js"></script>
+
+    </body>
+</html>
